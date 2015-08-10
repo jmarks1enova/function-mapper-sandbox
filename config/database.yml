@@ -2,10 +2,11 @@ development: &development
   adapter: postgresql
   encoding: unicode
   host: localhost
-  database: sandbox_development
-  host: localhost
+  database: fftest
+  host: /var/run/postgresql
   pool: 5
-  username: srirangarajan
+  username: fftest
+  port: 5433
  
 test: &test
   adapter: postgresql

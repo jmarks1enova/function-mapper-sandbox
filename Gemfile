@@ -38,5 +38,8 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem "pry-rails"
 gem 'pg'
+gem 'pry-byebug'
 gem 'obvious_data'
+#gem 'pg_function_mapped_model', git: "http://git.enova.com/jmarks1/pg_function_mapped_model"
